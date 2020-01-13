@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeTest" duration-ms="40794" started-at="2020-01-13T08:56:21Z" finished-at="2020-01-13T08:57:01Z">
+    <groups>
+    </groups>
+    <test name="uampMusicPlayer Test" duration-ms="40794" started-at="2020-01-13T08:56:21Z" finished-at="2020-01-13T08:57:01Z">
+      <class name="tests.PlayWakeUpFromWakeUpAlbum">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:tests.PlayWakeUpFromWakeUpAlbum@5442a311]" name="setup" is-config="true" duration-ms="21607" started-at="2020-01-13T08:56:21Z" finished-at="2020-01-13T08:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PhilaEmulator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="playWakeUpSong()[pri:0, instance:tests.PlayWakeUpFromWakeUpAlbum@5442a311]" name="playWakeUpSong" duration-ms="13929" started-at="2020-01-13T08:56:42Z" finished-at="2020-01-13T08:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playWakeUpSong -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.PlayWakeUpFromWakeUpAlbum@5442a311]" name="teardown" is-config="true" duration-ms="5242" started-at="2020-01-13T08:56:56Z" finished-at="2020-01-13T08:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.PlayWakeUpFromWakeUpAlbum -->
+    </test> <!-- uampMusicPlayer Test -->
+  </suite> <!-- SmokeTest -->
+</testng-results>
