@@ -143,7 +143,8 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SmokeTest&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;uampMusicPlayer Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;PhilaEmulator&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.PlayWakeUpFromWakeUpAlbum&quot;/&gt;
     &lt;/classes&gt;
@@ -189,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'playWakeUpSong')
 data.setCell(0, 2, 'tests.PlayWakeUpFromWakeUpAlbum')
-data.setCell(0, 3, 12070);
+data.setCell(0, 3, 15458);
 window.suiteTableData['SmokeTest']= { tableData: data, tableDiv: 'times-div-SmokeTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-SmokeTest">
               </div> <!-- times-div-SmokeTest -->
             </div> <!-- times-div -->
@@ -222,16 +223,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.PlayWakeUpFromWakeUpAlbum</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup</span>
+                <span class="method-name">setup(PhilaEmulator, http://127.0.0.1:4723/wd/hub)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">playWakeUpSong</span>
-                <span class="method-start">16965 ms</span>
+                <span class="method-start">19058 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">29037 ms</span>
+                <span class="method-start">34519 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
